@@ -8,7 +8,7 @@ body {
 h1 {
   color: #66BFBF;
   font-size: 5.625rem;
-  margin: 15px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
@@ -46,7 +46,10 @@ a{
   margin: 10px 20px;
   text-decoration: none;
 }
-
+a.navbar-brand{
+  margin: 8px 20px 10px 5px;
+  padding-left: 5px;
+}
 
 li{
 padding-bottom: 1.5rem;
@@ -64,10 +67,18 @@ a:hover {
 margin: 0 0 0 0;
 
 }
+.navbar-toggler-icon{
+  margin-bottom: 12px;
+}
 
 a.about-me-link:hover{
   color:#11cdd4;
 }
+
+.navbar-brand{
+  padding-top: 0;
+}
+
 .col-2{
   font-weight: bold;
 }
@@ -95,9 +106,7 @@ a.about-me-link:hover{
   text-align: left;
 }
 
-.pro {
-  text-decoration: underline;
-}
+
 
 .intro {
   width: 60%;
@@ -176,11 +185,38 @@ a.about-me-link:hover{
 }
 .about-me{
   width: 80%;
-padding: 10px 10px 50px 50px;
+padding: 10px 10px 40px 10px;
 text-align:center;
 margin: auto;
 
 }
+.nav-link{
+  text-align: right;
+  padding: 0 0;
+  border: 0 0;
+  margin: 0 0;
+}
+
+
+ .ml-auto{
+   outline: none;
+   box-shadow: none;
+   border-color: #2bc4ad!important
+ }
+
+
+ * {
+   -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+           box-sizing: content-box;
+ }
+ *:before,
+ *:after {
+   -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+           box-sizing: content-box;
+ }
+
 @media (max-width: 1028px) {
 
   /* #title {
@@ -194,10 +230,9 @@ margin: auto;
 
 
   .skill-row {
-    width: 90%;
-    /* margin: 50px auto 100px auto; */
-    text-align: left;
-  }
+    width: 80%;
+    margin: auto;
 
+  }
 
 }
